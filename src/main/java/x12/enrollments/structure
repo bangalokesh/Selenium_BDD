@@ -1,0 +1,48 @@
+<Loop>ISA</Loop>
+	<Segment>ISA</Segment>
+	<Loop>GS</Loop>
+		<Loop>ST</Loop>
+			<Loop>BGN</Loop>
+			<Loop>1000A</Loop>
+				<Segment>N1</Segment>
+			<Loop>1000B</Loop>
+				<Segment>N1</Segment>
+			<Loop>1000C</Loop>
+				<Segment>N1</Segment>
+			<Loop>2000</Loop>
+				<Segment>INS</Segment>
+				<Segment>REF</Segment>
+				<Segment>REF</Segment>
+				<Segment>REF</Segment>
+				<Segment>DTP</Segment>
+				<Segment>DTP</Segment>
+				<Segment>DTP</Segment>
+				<Loop>2100A</Loop>
+				<Loop>2100C</Loop>
+			<Loop>2300</Loop>
+				<Loop>2310</Loop>
+				<Loop>2320</Loop>
+		<Loop>SE</Loop>
+		<Loop>GE</Loop>
+	<Loop>IEA</Loop>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2000_DTP103
+CVT_DSINFO Table - EFFECTIVESTARTDATE
+Join it using MEMBER_ID to CVT_MemberData
