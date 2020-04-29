@@ -42,7 +42,7 @@ public class DriverManager {
 				break;
 			case "CHROME":
 				ChromeOptions cOptions = new ChromeOptions();
-				cOptions.setHeadless(true);
+				//cOptions.setHeadless(true);
 				cOptions.setCapability(CapabilityType.SUPPORTS_APPLICATION_CACHE, false);
 				cOptions.setCapability(CapabilityType.SUPPORTS_NETWORK_CONNECTION, true);
 				System.setProperty("webdriver.chrome.driver",

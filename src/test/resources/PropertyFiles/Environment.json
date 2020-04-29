@@ -7,7 +7,7 @@
     "M360" : {
       "password" : "",
       "userId" : "",
-      "url" : "https://uatapp.med-adv360.com/mss/home/Index.jsp"
+      "url" : "https://www.abcd.com"
     },
     "HRP" : {
       "password" : "",
@@ -21,16 +21,16 @@
     "guidingCareUrl" : {
       "password" : "uwF7aA2yKu6usJeWvvBjWQ==",
       "userId" : "",
-      "url" : "https://baz-uat.guidingcare.com/Portal/Account/Login?ReturnUrl=%2fPortal%2f#"
+      "url" : "https://www.abcd.com"
     },
     "BrokerPortal" : {
       "password" : "",
-      "url" : "https://stage.azblue.com/individualsandfamilies"
+      "url" : "https://www.abcd.com"
     },
     "healthXMemberPortalUrl" : {
       "password" : "",
       "userId" : "",
-      "url" : "https://secure.healthx.com/bcbsaz_membertest_CC"
+      "url" : "https://www.abcd.com"
     },
     "guidingCareUMSupervisor" : {
       "password" : "jZO7iitXz/GQAsCZAFkJ1/HZu89EMY3+nGs04bgQHJI=",
@@ -43,19 +43,19 @@
     "Callidus" : {
       "password" : "",
       "userId" : "",
-      "url" : "https://bcbsaztest1.callidusinsurance.net/ICM/FormActionServlet"
+      "url" : "https://www.abcd.com"
     },
     "healthXProviderPortalUrl" : {
       "password" : "",
       "userId" : "",
-      "url" : "https://secure.healthx.com/bcbsaz.provider_test"
+      "url" : "https://www.abcd.com"
     },
     "aZBlueMedicareUrl" : "",
     "clearstoneUrl" : "",
     "healthXAdminPortalUrl" : {
       "password" : "",
       "userId" : "",
-      "url" : "https://secure.healthx.com/bcbsaz.admin_test"
+      "url" : "https://www.abcd.com"
     },
     "guidingCareUMTech" : {
       "password" : "Hj2XYbYu29VqC/04/yO/YB1uefq2iXI9zJ9wWGlXuy0=",
@@ -85,7 +85,7 @@
     "M360" : {
       "password" : "",
       "userId" : "",
-      "url" : "http://m360.sit.membership.azblue.com"
+      "url" : "https://www.abcd.com"
     },
     "callidusUrl" : "",
     "HRP" : {
