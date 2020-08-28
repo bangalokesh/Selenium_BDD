@@ -329,11 +329,11 @@ public class BasePage extends CommonMethods {
 				htmlReporter.loadConfig(Const.EXTENTCONFIG);
 			}
 			if (Const.TESTPLANID != null && Const.TESTSUITEID != null) {
-				File f = new File(Const.REPORT_PATH);
+				/*File f = new File(Const.REPORT_PATH);
 				File destZipFile = getLatestFilefromDir(f); // String folder = Const.REPORT_PATH +
 				zipDir(Const.REPORT_PATH, destZipFile.getAbsolutePath(), destZipFile.getAbsolutePath() + ".zip");
 				destZipFile = getLatestFilefromDir(f);
-				addAttachmentToRun(runId, destZipFile.getAbsolutePath());
+				addAttachmentToRun(runId, destZipFile.getAbsolutePath());*/
 			}
 		} catch (Exception e) {
 			e.printStackTrace();

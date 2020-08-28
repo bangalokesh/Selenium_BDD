@@ -4419,4 +4419,124 @@
  2020-04-27 11:09:32 INFO  M360MemberPage:53 - Search Results Page Displayed
  2020-04-27 11:09:43 INFO  M360MemberPage:68 - Start Creating Sales Order
  2020-04-27 11:10:13 INFO  CommonMethods:61 - Generating Random Number
+ 2020-08-27 21:05:43 INFO  Hooks:80 - loadedlog4j
+ 2020-08-27 21:05:43 INFO  Hooks:29 - 59516~60550
+ 2020-08-27 21:05:58 INFO  GuidingCareStepDefinition:18 - Validating 835 Claims File
+ 2020-08-27 21:06:13 INFO  Hooks:80 - loadedlog4j
+ 2020-08-27 21:06:13 INFO  Hooks:29 - 54515~60557
+ 2020-08-27 21:06:28 INFO  GuidingCareStepDefinition:30 - Creating 837 Professional Claims File
+ 2020-08-27 21:06:57 INFO  Hooks:80 - loadedlog4j
+ 2020-08-27 21:06:57 INFO  Hooks:29 - 59213~60559
+ 2020-08-27 21:07:11 INFO  GuidingCareStepDefinition:42 - Creating 837 Institutional Claims File
+ 2020-08-27 21:07:55 INFO  Hooks:80 - loadedlog4j
+ 2020-08-27 21:07:55 INFO  Hooks:29 - 59516~60550
+ 2020-08-27 21:09:07 INFO  Hooks:80 - loadedlog4j
+ 2020-08-27 21:09:07 INFO  Hooks:29 - 59516~60550
+ 2020-08-27 21:09:38 INFO  GuidingCareStepDefinition:18 - Validating 835 Claims File
+ 2020-08-27 21:10:14 INFO  Hooks:80 - loadedlog4j
+ 2020-08-27 21:10:14 INFO  Hooks:29 - 54515~60557
+ 2020-08-27 21:11:57 INFO  Hooks:80 - loadedlog4j
+ 2020-08-27 21:11:57 INFO  Hooks:29 - 59516~60550
+ 2020-08-27 21:11:57 INFO  GuidingCareStepDefinition:18 - Validating 835 Claims File
+ 2020-08-27 21:12:13 INFO  Hooks:80 - loadedlog4j
+ 2020-08-27 21:12:13 INFO  Hooks:29 - 54515~60557
+ 2020-08-27 21:12:13 INFO  GuidingCareStepDefinition:30 - Creating 837 Professional Claims File
+ 2020-08-27 21:12:42 INFO  Hooks:80 - loadedlog4j
+ 2020-08-27 21:12:42 INFO  Hooks:29 - 59213~60559
+ 2020-08-27 21:12:42 INFO  GuidingCareStepDefinition:42 - Creating 837 Institutional Claims File
+ 2020-08-27 21:15:03 INFO  Hooks:80 - loadedlog4j
+ 2020-08-27 21:15:03 INFO  Hooks:29 - SAPTest~FileDBValidation
+ 2020-08-27 21:15:15 INFO  M360MembershipStepDefinition:39 - Start Logging file test in java
+ 2020-08-27 21:17:31 INFO  Hooks:80 - loadedlog4j
+ 2020-08-27 21:17:31 INFO  Hooks:29 - SAPTest~FileDBValidation
+ 2020-08-27 21:17:40 INFO  M360MembershipStepDefinition:39 - Start Logging file test in java
+ 2020-08-27 21:19:37 INFO  Hooks:80 - loadedlog4j
+ 2020-08-27 21:19:37 INFO  Hooks:29 - SAPTest~FileDBValidation
+ 2020-08-27 21:19:38 INFO  M360MembershipStepDefinition:39 - Start Logging file test in java
+ 2020-08-27 21:25:21 INFO  Hooks:80 - loadedlog4j
+ 2020-08-27 21:25:21 INFO  Hooks:29 - SAPTest~FileDBValidation
+ 2020-08-27 21:25:21 INFO  M360MembershipStepDefinition:39 - Start Logging file test in java
+ 2020-08-27 21:30:44 INFO  Hooks:80 - loadedlog4j
+ 2020-08-27 21:30:44 INFO  Hooks:29 - SAPTest~FileDBValidation
+ 2020-08-27 21:30:44 INFO  M360MembershipStepDefinition:39 - Start Logging file test in java
+ 2020-08-27 21:35:39 INFO  Hooks:80 - loadedlog4j
+ 2020-08-27 21:35:39 INFO  Hooks:29 - SAPTest~FileDBValidation
+ 2020-08-27 21:35:39 INFO  M360MembershipStepDefinition:39 - Start Logging file test in java
+ 2020-08-27 21:35:39 INFO  M360MembershipStepDefinition:42 - Read the file
+ 2020-08-27 21:35:39 INFO  M360MembershipStepDefinition:46 - Read the data from db
+ 2020-08-27 21:35:39 INFO  M360MembershipStepDefinition:49 - Data in file and table matched
+ 2020-08-27 21:35:40 INFO  M360MembershipStepDefinition:46 - Read the data from db
+ 2020-08-27 21:35:40 INFO  M360MembershipStepDefinition:49 - Data in file and table matched
+ 2020-08-27 21:35:40 INFO  M360MembershipStepDefinition:46 - Read the data from db
+ 2020-08-27 21:35:40 INFO  M360MembershipStepDefinition:49 - Data in file and table matched
+ 2020-08-27 21:35:40 INFO  M360MembershipStepDefinition:46 - Read the data from db
+ 2020-08-27 21:35:40 INFO  M360MembershipStepDefinition:49 - Data in file and table matched
+ 2020-08-27 21:35:40 INFO  M360MembershipStepDefinition:46 - Read the data from db
+ 2020-08-27 21:35:40 INFO  M360MembershipStepDefinition:49 - Data in file and table matched
+ 2020-08-27 21:35:40 INFO  M360MembershipStepDefinition:46 - Read the data from db
+ 2020-08-27 21:35:40 INFO  M360MembershipStepDefinition:49 - Data in file and table matched
+ 2020-08-27 21:35:41 INFO  M360MembershipStepDefinition:46 - Read the data from db
+ 2020-08-27 21:35:41 INFO  M360MembershipStepDefinition:49 - Data in file and table matched
+ 2020-08-27 21:35:41 INFO  M360MembershipStepDefinition:46 - Read the data from db
+ 2020-08-27 21:35:41 INFO  M360MembershipStepDefinition:49 - Data in file and table matched
+ 2020-08-27 21:37:09 INFO  Hooks:80 - loadedlog4j
+ 2020-08-27 21:37:09 INFO  Hooks:29 - SAPTest~FileDBValidation
+ 2020-08-27 21:37:09 INFO  M360MembershipStepDefinition:39 - Start Logging file test in java
+ 2020-08-27 21:37:09 INFO  M360MembershipStepDefinition:42 - Read the file
+ 2020-08-27 21:37:23 INFO  M360MembershipStepDefinition:46 - Read the data from db
+ 2020-08-27 21:37:23 INFO  M360MembershipStepDefinition:49 - Data in file and table matched
+ 2020-08-27 21:37:23 INFO  M360MembershipStepDefinition:46 - Read the data from db
+ 2020-08-27 21:37:23 INFO  M360MembershipStepDefinition:49 - Data in file and table matched
+ 2020-08-27 21:37:24 INFO  M360MembershipStepDefinition:46 - Read the data from db
+ 2020-08-27 21:37:24 INFO  M360MembershipStepDefinition:49 - Data in file and table matched
+ 2020-08-27 21:37:24 INFO  M360MembershipStepDefinition:46 - Read the data from db
+ 2020-08-27 21:37:24 INFO  M360MembershipStepDefinition:49 - Data in file and table matched
+ 2020-08-27 21:37:24 INFO  M360MembershipStepDefinition:46 - Read the data from db
+ 2020-08-27 21:37:24 INFO  M360MembershipStepDefinition:49 - Data in file and table matched
+ 2020-08-27 21:37:25 INFO  M360MembershipStepDefinition:46 - Read the data from db
+ 2020-08-27 21:37:25 INFO  M360MembershipStepDefinition:49 - Data in file and table matched
+ 2020-08-27 21:37:26 INFO  M360MembershipStepDefinition:46 - Read the data from db
+ 2020-08-27 21:37:26 INFO  M360MembershipStepDefinition:49 - Data in file and table matched
+ 2020-08-27 21:37:26 INFO  M360MembershipStepDefinition:46 - Read the data from db
+ 2020-08-27 21:37:26 INFO  M360MembershipStepDefinition:49 - Data in file and table matched
+ 2020-08-27 21:40:40 INFO  Hooks:80 - loadedlog4j
+ 2020-08-27 21:40:40 INFO  Hooks:29 - SAPTest~FileDBValidation
+ 2020-08-27 21:40:40 INFO  M360MembershipStepDefinition:39 - Start Logging file test in java
+ 2020-08-27 21:40:40 INFO  M360MembershipStepDefinition:42 - Read the file
+ 2020-08-27 21:40:42 INFO  M360MembershipStepDefinition:46 - Read the data from db
+ 2020-08-27 21:40:42 INFO  M360MembershipStepDefinition:49 - Data in file and table matched
+ 2020-08-27 21:40:42 INFO  M360MembershipStepDefinition:46 - Read the data from db
+ 2020-08-27 21:40:42 INFO  M360MembershipStepDefinition:49 - Data in file and table matched
+ 2020-08-27 21:40:43 INFO  M360MembershipStepDefinition:46 - Read the data from db
+ 2020-08-27 21:40:43 INFO  M360MembershipStepDefinition:49 - Data in file and table matched
+ 2020-08-27 21:40:43 INFO  M360MembershipStepDefinition:46 - Read the data from db
+ 2020-08-27 21:40:43 INFO  M360MembershipStepDefinition:49 - Data in file and table matched
+ 2020-08-27 21:40:43 INFO  M360MembershipStepDefinition:46 - Read the data from db
+ 2020-08-27 21:40:43 INFO  M360MembershipStepDefinition:49 - Data in file and table matched
+ 2020-08-27 21:40:43 INFO  M360MembershipStepDefinition:46 - Read the data from db
+ 2020-08-27 21:40:43 INFO  M360MembershipStepDefinition:49 - Data in file and table matched
+ 2020-08-27 21:40:43 INFO  M360MembershipStepDefinition:46 - Read the data from db
+ 2020-08-27 21:40:43 INFO  M360MembershipStepDefinition:49 - Data in file and table matched
+ 2020-08-27 21:40:44 INFO  M360MembershipStepDefinition:46 - Read the data from db
+ 2020-08-27 21:40:44 INFO  M360MembershipStepDefinition:49 - Data in file and table matched
+ 2020-08-27 21:42:17 INFO  Hooks:80 - loadedlog4j
+ 2020-08-27 21:42:17 INFO  Hooks:29 - SAPTest~FileDBValidation
+ 2020-08-27 21:42:17 INFO  M360MembershipStepDefinition:39 - Start Logging file test in java
+ 2020-08-27 21:42:17 INFO  M360MembershipStepDefinition:42 - Read the file
+ 2020-08-27 21:42:18 INFO  M360MembershipStepDefinition:46 - Read the data from db
+ 2020-08-27 21:42:18 INFO  M360MembershipStepDefinition:49 - Data in file and table matched
+ 2020-08-27 21:42:18 INFO  M360MembershipStepDefinition:46 - Read the data from db
+ 2020-08-27 21:42:18 INFO  M360MembershipStepDefinition:49 - Data in file and table matched
+ 2020-08-27 21:42:18 INFO  M360MembershipStepDefinition:46 - Read the data from db
+ 2020-08-27 21:42:18 INFO  M360MembershipStepDefinition:49 - Data in file and table matched
+ 2020-08-27 21:42:18 INFO  M360MembershipStepDefinition:46 - Read the data from db
+ 2020-08-27 21:42:18 INFO  M360MembershipStepDefinition:49 - Data in file and table matched
+ 2020-08-27 21:42:18 INFO  M360MembershipStepDefinition:46 - Read the data from db
+ 2020-08-27 21:42:18 INFO  M360MembershipStepDefinition:49 - Data in file and table matched
+ 2020-08-27 21:42:19 INFO  M360MembershipStepDefinition:46 - Read the data from db
+ 2020-08-27 21:42:19 INFO  M360MembershipStepDefinition:49 - Data in file and table matched
+ 2020-08-27 21:42:19 INFO  M360MembershipStepDefinition:46 - Read the data from db
+ 2020-08-27 21:42:19 INFO  M360MembershipStepDefinition:49 - Data in file and table matched
+ 2020-08-27 21:42:19 INFO  M360MembershipStepDefinition:46 - Read the data from db
+ 2020-08-27 21:42:19 INFO  M360MembershipStepDefinition:49 - Data in file and table matched
  

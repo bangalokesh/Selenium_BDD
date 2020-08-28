@@ -202,13 +202,6 @@
     	<version>1.5</version>
 	</dependency>
 	
-	<!-- https://mvnrepository.com/artifact/org.apache.pdfbox/pdfbox -->
-	<dependency>
-    	<groupId>org.apache.pdfbox</groupId>
-    	<artifactId>pdfbox</artifactId>
-    	<version>2.0.14</version>
-	</dependency>
-	
 	<!-- https://mvnrepository.com/artifact/net.sourceforge.tess4j/tess4j -->
 	<dependency>
     	<groupId>net.sourceforge.tess4j</groupId>
@@ -247,7 +240,7 @@
 					<!-- <testClassesDirectory>s360UIAutomationCC/src/main/java</testClassesDirectory> -->
 					<testSourceDirectory>src/test/java</testSourceDirectory> 
 						<includes>
-							<include>E2ERunner.java</include>
+							<include>SAPRunner.java</include>
 						</includes>
 						<!-- <excludes> <exclude>**/*RunCukesTest.java</exclude> </excludes> -->
 				</configuration>

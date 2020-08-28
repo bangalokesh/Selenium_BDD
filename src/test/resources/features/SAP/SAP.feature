@@ -1,10 +1,7 @@
 #Keywords Summary :
 
-Feature: SAP Test
+Feature: SAP File Integration Test
 
-Background:
-  #Given I Open Browser
-   	
-@sapLogin
- Scenario: 39782 ~ 59938 	
- 	I Login in SAP
+@sapFileTest
+ Scenario: SAPTest ~ FileDBValidation 	
+ 	Given I read the file and validate in DB
