@@ -36,6 +36,8 @@ public class Const {
 	
 	public static final String SAPConfigProperties = System.getProperty("user.dir") + "//src//test//resources//PropertyFiles//SAPConfig.properties";
 	
+	public static final String SAPDataFile = System.getProperty("user.dir") + "//data//SAP_File_Data//File_Data_Interim_Table.txt";
+ 	
 	public static final String AccessDBPath = "C:\\Users\\lbanga01\\Git\\AccessDB_Lokesh\\velocity_automation.mdb";
 
 	public static final String OECFILEPATH = System.getProperty("user.dir") + "//reports//oec_files//";
