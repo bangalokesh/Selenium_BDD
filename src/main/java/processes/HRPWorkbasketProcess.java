@@ -1,8 +1,5 @@
 package processes;
 
-import java.util.HashMap;
-import java.util.List;
-
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.interactions.Actions;
 

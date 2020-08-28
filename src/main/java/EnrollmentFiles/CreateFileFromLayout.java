@@ -13,6 +13,7 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.text.DecimalFormat;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.LinkedList;
 import java.util.List;
@@ -23,6 +24,7 @@ import org.junit.Test;
 import pageclasses.BasePage;
 import utils.Const;
 import utils.Dbconn;
+import utils.MySqlSAPDB;
 
 public class CreateFileFromLayout extends BasePage {
 
@@ -39,10 +41,10 @@ public class CreateFileFromLayout extends BasePage {
 		}
 	}
 
-	public List<Map<String, String>> readFileFromLayout(String propertiesFile, String dataFilePath, String delimiter)
+	public List<HashMap<String, String>> readFileFromLayout(String propertiesFile, String dataFilePath, String delimiter)
 			throws IOException {
 
-		List<Map<String, String>> fileData = new LinkedList<Map<String, String>>();
+		List<HashMap<String, String>> fileData = new LinkedList<HashMap<String, String>>();
 		BufferedReader dataFile = new BufferedReader(new FileReader(new File(dataFilePath)));
 
 		Map<String, Integer> properties = loadProperties(propertiesFile);
@@ -50,7 +52,7 @@ public class CreateFileFromLayout extends BasePage {
 		while ((line = dataFile.readLine()) != null) {
 
 			String[] data = line.split(delimiter);
-			Map<String, String> record = new LinkedHashMap<String, String>();
+			HashMap<String, String> record = new LinkedHashMap<String, String>();
 			int index = 0;
 			for (String key : properties.keySet()) {
 				if (index < data.length) {
@@ -195,15 +197,22 @@ public class CreateFileFromLayout extends BasePage {
 	@Test
 	public void executeCMS() {
 		try {
-			generateOEC_CMS_File();
+			
+			/*generateOEC_CMS_File();
 			generateOEC_EXT_File();
 			generateOEC_CLR_2019_File();
 			generateOEC_CLR_2020_File();
 			generateOEC_HPT_File();
 			generateOEC_EH_File();
-			generateOEC_AON_File();
-
-		} catch (IOException | SQLException e) {
+			generateOEC_AON_File();*/
+			List<HashMap<String, String>> a = readFileFromLayout(Const.SAPConfigProperties, "C:\\Users\\lokes\\git\\Selenium_BDD\\data\\SAP_File_Data\\File_Data_Interim_Table.txt", ";");
+			MySqlSAPDB db = new MySqlSAPDB();
+			for (HashMap<String,String> row: a) {
+				String q = Const.SAPDBQuery2 + "'" + row.get("ZSRC_SYS_CD") + "';";
+				HashMap<String, String> dbMap = db.getResultSet(q);
+				compareHashMaps(row, dbMap);
+			}
+		} catch (IOException /*| SQLException*/ e) {
 			e.printStackTrace();
 		}
 	}

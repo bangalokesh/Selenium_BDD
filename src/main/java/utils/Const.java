@@ -34,6 +34,8 @@ public class Const {
 	
 	public static final String OECAONProperties = System.getProperty("user.dir") + "//src//test//resources//PropertyFiles//OECAONLayout.properties";
 	
+	public static final String SAPConfigProperties = System.getProperty("user.dir") + "//src//test//resources//PropertyFiles//SAPConfig.properties";
+	
 	public static final String AccessDBPath = "C:\\Users\\lbanga01\\Git\\AccessDB_Lokesh\\velocity_automation.mdb";
 
 	public static final String OECFILEPATH = System.getProperty("user.dir") + "//reports//oec_files//";
@@ -66,9 +68,14 @@ public class Const {
 	
 	public static final String EnrollmentFilePath = System.getProperty("user.dir") + "//data//EnrollmentFile//";
 	
-	public static final String tessDataMaster = System.getProperty("user.dir") + "//src//main//resources//testdata-master//";
+	public static final String tessDataMaster = System.getProperty("user.dir") + "//src//main//resources//tessdata-master//";
 	
 	public static final int Number_of_service_requests = 1;
+	
+	//----------------------------------------------------
+	public static final String SAPDBQuery1 = "select ZSRC_SYS_CD, ZLE_SRC_ID, ZLE_ID, ZVALID_FROM, ZVALID_TO from saptest.sapdata";
+	
+	public static final String SAPDBQuery2 = "SELECT ZSRC_SYS_CD, ZLE_SRC_ID, ZLE_ID, ZVALID_FROM, ZVALID_TO FROM saptest.sapdata WHERE ZSRC_SYS_CD = ";
 
 
 }

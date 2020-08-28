@@ -4288,4 +4288,135 @@
  2019-07-17 07:34:35 INFO  BasePage:607 - PASStest passed
  2019-07-17 07:34:35 INFO  BasePage:398 - Test = com.aventstack.extentreports.ExtentTest@54da32dc Getting Element: /html/frameset/frame
  2019-07-17 07:34:36 INFO  BasePage:607 - PASStest passed
+ 2020-04-26 12:51:32 INFO  M360MemberPage:36 - Login Successful
+ 2020-04-26 12:51:43 INFO  M360MemberPage:39 - Clicked on Search
+ 2020-04-26 12:55:26 INFO  M360MemberPage:36 - Login Successful
+ 2020-04-26 12:55:42 INFO  M360MemberPage:39 - Clicked on Search
+ 2020-04-26 12:58:13 INFO  M360MemberPage:36 - Login Successful
+ 2020-04-26 12:58:27 INFO  M360MemberPage:39 - Clicked on Search
+ 2020-04-26 13:02:19 INFO  M360MemberPage:36 - Login Successful
+ 2020-04-26 13:02:35 INFO  M360MemberPage:40 - Clicked on Search
+ 2020-04-26 13:03:52 INFO  M360MemberPage:36 - Login Successful
+ 2020-04-26 13:04:13 INFO  M360MemberPage:40 - Clicked on Search
+ 2020-04-26 13:09:28 INFO  M360MemberPage:36 - Login Successful
+ 2020-04-26 13:11:36 INFO  M360MemberPage:36 - Login Successful
+ 2020-04-26 13:13:16 INFO  M360MemberPage:36 - Login Successful
+ 2020-04-26 13:19:33 INFO  M360MemberPage:36 - Login Successful
+ 2020-04-26 13:22:54 INFO  M360MemberPage:36 - Login Successful
+ 2020-04-26 13:24:23 INFO  M360MemberPage:36 - Login Successful
+ 2020-04-26 13:27:07 INFO  M360MemberPage:36 - Login Successful
+ 2020-04-26 13:34:26 INFO  M360MemberPage:36 - Login Successful
+ 2020-04-26 13:36:06 INFO  M360MemberPage:36 - Login Successful
+ 2020-04-26 13:37:54 INFO  M360MemberPage:36 - Login Successful
+ 2020-04-26 13:39:50 INFO  M360MemberPage:36 - Login Successful
+ 2020-04-26 13:42:15 INFO  M360MemberPage:36 - Login Successful
+ 2020-04-26 13:48:37 INFO  M360MemberPage:36 - Login Successful
+ 2020-04-26 13:51:10 INFO  M360MemberPage:36 - Login Successful
+ 2020-04-26 13:54:48 INFO  M360MemberPage:36 - Login Successful
+ 2020-04-26 13:56:57 INFO  M360MemberPage:36 - Login Successful
+ 2020-04-26 14:02:33 INFO  M360MemberPage:36 - Login Successful
+ 2020-04-26 14:05:35 INFO  M360MemberPage:36 - Login Successful
+ 2020-04-26 14:08:40 INFO  M360MemberPage:34 - Login Successful
+ 2020-04-26 14:15:53 INFO  M360MemberPage:34 - Login Successful
+ 2020-04-26 14:15:56 INFO  M360MemberPage:43 - Send Keys
+ 2020-04-26 14:18:29 INFO  M360MemberPage:34 - Login Successful
+ 2020-04-26 14:20:55 INFO  M360MemberPage:34 - Login Successful
+ 2020-04-26 14:22:38 INFO  M360MemberPage:34 - Login Successful
+ 2020-04-26 14:24:44 INFO  M360MemberPage:34 - Login Successful
+ 2020-04-26 14:31:05 INFO  M360MemberPage:34 - Login Successful
+ 2020-04-26 14:33:13 INFO  M360MemberPage:34 - Login Successful
+ 2020-04-26 14:35:01 INFO  M360MemberPage:34 - Login Successful
+ 2020-04-26 14:41:12 INFO  M360MemberPage:34 - Login Successful
+ 2020-04-26 14:43:59 INFO  M360MemberPage:34 - Login Successful
+ 2020-04-26 14:44:44 INFO  M360MemberPage:47 - Send Keys
+ 2020-04-26 14:48:06 INFO  M360MemberPage:34 - Login Successful
+ 2020-04-26 14:48:35 INFO  M360MemberPage:43 - Send Keys
+ 2020-04-26 14:48:35 INFO  M360MemberPage:46 - Click on Search Button
+ 2020-04-26 14:55:40 INFO  M360MemberPage:34 - Login Successful
+ 2020-04-26 14:57:36 INFO  M360MemberPage:34 - Login Successful
+ 2020-04-26 14:59:43 INFO  M360MemberPage:34 - Login Successful
+ 2020-04-26 15:02:21 INFO  M360MemberPage:43 - Send Keys
+ 2020-04-26 15:02:22 INFO  M360MemberPage:46 - Click on Search Button
+ 2020-04-26 15:12:03 INFO  M360MemberPage:37 - Login Successful
+ 2020-04-26 15:13:30 INFO  M360MemberPage:37 - Login Successful
+ 2020-04-26 15:20:51 INFO  M360MemberPage:37 - Login Successful
+ 2020-04-26 15:22:36 INFO  M360MemberPage:37 - Login Successful
+ 2020-04-26 15:24:48 INFO  M360MemberPage:37 - Login Successful
+ 2020-04-26 15:25:35 INFO  M360MemberPage:46 - Send Keys
+ 2020-04-26 15:25:36 INFO  M360MemberPage:49 - Click on Search Button
+ 2020-04-26 15:28:43 INFO  M360MemberPage:37 - Login Successful
+ 2020-04-26 15:29:14 INFO  M360MemberPage:46 - Send Keys
+ 2020-04-26 15:29:14 INFO  M360MemberPage:49 - Click on Search Button
+ 2020-04-26 15:31:23 INFO  M360MemberPage:37 - Login Successful
+ 2020-04-26 15:32:11 INFO  M360MemberPage:46 - Send Keys
+ 2020-04-26 15:32:11 INFO  M360MemberPage:49 - Click on Search Button
+ 2020-04-26 15:38:57 INFO  M360MemberPage:37 - Login Successful
+ 2020-04-26 15:39:40 INFO  M360MemberPage:46 - Send Keys
+ 2020-04-26 15:39:40 INFO  M360MemberPage:49 - Click on Search Button
+ 2020-04-26 15:44:08 INFO  M360MemberPage:37 - Login Successful
+ 2020-04-26 15:44:54 INFO  M360MemberPage:46 - Send Keys
+ 2020-04-26 15:44:54 INFO  M360MemberPage:49 - Click on Search Button
+ 2020-04-26 15:48:43 INFO  M360MemberPage:37 - Login Successful
+ 2020-04-26 15:49:21 INFO  M360MemberPage:46 - Send Keys
+ 2020-04-26 15:49:21 INFO  M360MemberPage:49 - Click on Search Button
+ 2020-04-26 15:53:02 INFO  M360MemberPage:37 - Login Successful
+ 2020-04-26 15:53:31 INFO  M360MemberPage:46 - Send Keys
+ 2020-04-26 15:53:31 INFO  M360MemberPage:49 - Click on Search Button
+ 2020-04-26 16:07:54 INFO  M360MemberPage:36 - Login Successful
+ 2020-04-26 16:13:01 INFO  M360MemberPage:36 - Login Successful
+ 2020-04-26 16:15:39 INFO  M360MemberPage:36 - Login Successful
+ 2020-04-26 16:17:37 INFO  M360MemberPage:36 - Login Successful
+ 2020-04-26 16:19:22 INFO  M360MemberPage:51 - Search Results Page Displayed
+ 2020-04-26 16:43:07 INFO  M360MemberPage:36 - Login Successful
+ 2020-04-26 16:44:36 INFO  M360MemberPage:51 - Search Results Page Displayed
+ 2020-04-26 16:50:58 INFO  M360MemberPage:36 - Login Successful
+ 2020-04-26 16:52:24 INFO  M360MemberPage:51 - Search Results Page Displayed
+ 2020-04-26 16:57:57 INFO  M360MemberPage:36 - Login Successful
+ 2020-04-26 17:01:23 INFO  M360MemberPage:36 - Login Successful
+ 2020-04-26 17:02:52 INFO  M360MemberPage:51 - Search Results Page Displayed
+ 2020-04-26 17:04:40 INFO  M360MemberPage:36 - Login Successful
+ 2020-04-26 17:06:08 INFO  M360MemberPage:51 - Search Results Page Displayed
+ 2020-04-26 17:06:29 INFO  M360MemberPage:66 - Start Creating Sales Order
+ 2020-04-26 17:12:07 INFO  M360MemberPage:36 - Login Successful
+ 2020-04-26 17:14:39 INFO  M360MemberPage:66 - Start Creating Sales Order
+ 2020-04-26 17:19:02 INFO  M360MemberPage:36 - Login Successful
+ 2020-04-26 17:20:17 INFO  M360MemberPage:53 - Search Results Page Displayed
+ 2020-04-26 17:20:26 INFO  M360MemberPage:70 - Start Creating Sales Order
+ 2020-04-26 17:27:13 INFO  M360MemberPage:36 - Login Successful
+ 2020-04-26 17:28:22 INFO  M360MemberPage:53 - Search Results Page Displayed
+ 2020-04-26 17:28:32 INFO  M360MemberPage:68 - Start Creating Sales Order
+ 2020-04-26 17:45:31 INFO  M360MemberPage:36 - Login Successful
+ 2020-04-26 17:46:41 INFO  M360MemberPage:53 - Search Results Page Displayed
+ 2020-04-26 17:46:51 INFO  M360MemberPage:68 - Start Creating Sales Order
+ 2020-04-27 09:53:00 INFO  M360MemberPage:36 - Login Successful
+ 2020-04-27 09:54:22 INFO  M360MemberPage:53 - Search Results Page Displayed
+ 2020-04-27 09:54:30 INFO  M360MemberPage:68 - Start Creating Sales Order
+ 2020-04-27 09:57:09 INFO  M360MemberPage:36 - Login Successful
+ 2020-04-27 09:58:20 INFO  M360MemberPage:53 - Search Results Page Displayed
+ 2020-04-27 09:58:32 INFO  M360MemberPage:68 - Start Creating Sales Order
+ 2020-04-27 10:01:20 INFO  M360MemberPage:36 - Login Successful
+ 2020-04-27 10:02:49 INFO  M360MemberPage:53 - Search Results Page Displayed
+ 2020-04-27 10:02:57 INFO  M360MemberPage:68 - Start Creating Sales Order
+ 2020-04-27 10:11:56 INFO  M360MemberPage:36 - Login Successful
+ 2020-04-27 10:13:21 INFO  M360MemberPage:53 - Search Results Page Displayed
+ 2020-04-27 10:13:30 INFO  M360MemberPage:68 - Start Creating Sales Order
+ 2020-04-27 10:38:40 INFO  M360MemberPage:36 - Login Successful
+ 2020-04-27 10:40:00 INFO  M360MemberPage:53 - Search Results Page Displayed
+ 2020-04-27 10:40:15 INFO  M360MemberPage:68 - Start Creating Sales Order
+ 2020-04-27 10:42:24 INFO  M360MemberPage:36 - Login Successful
+ 2020-04-27 10:43:42 INFO  M360MemberPage:53 - Search Results Page Displayed
+ 2020-04-27 10:43:54 INFO  M360MemberPage:68 - Start Creating Sales Order
+ 2020-04-27 10:47:43 INFO  M360MemberPage:36 - Login Successful
+ 2020-04-27 10:49:07 INFO  M360MemberPage:53 - Search Results Page Displayed
+ 2020-04-27 10:49:23 INFO  M360MemberPage:68 - Start Creating Sales Order
+ 2020-04-27 10:49:54 INFO  CommonMethods:61 - Generating Random Number
+ 2020-04-27 10:56:40 INFO  M360MemberPage:36 - Login Successful
+ 2020-04-27 10:58:07 INFO  M360MemberPage:53 - Search Results Page Displayed
+ 2020-04-27 10:58:20 INFO  M360MemberPage:68 - Start Creating Sales Order
+ 2020-04-27 10:58:51 INFO  CommonMethods:61 - Generating Random Number
+ 2020-04-27 11:04:31 INFO  M360MemberPage:36 - Login Successful
+ 2020-04-27 11:08:05 INFO  M360MemberPage:36 - Login Successful
+ 2020-04-27 11:09:32 INFO  M360MemberPage:53 - Search Results Page Displayed
+ 2020-04-27 11:09:43 INFO  M360MemberPage:68 - Start Creating Sales Order
+ 2020-04-27 11:10:13 INFO  CommonMethods:61 - Generating Random Number
  

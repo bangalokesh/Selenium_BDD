@@ -1445,4 +1445,9 @@ public class CommonMethods {
 		return phone;
 	}
 
+	
+	public void captchTest() {
+		String text = BasePage.readImageReturnText("C:\\Users\\lokes\\OneDrive\\Documents\\Birlasoft\\Captcha_Test\\captcha18.PNG");
+		System.out.println(text);
+	}
 }

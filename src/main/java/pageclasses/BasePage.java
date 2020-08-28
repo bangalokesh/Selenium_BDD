@@ -4,7 +4,6 @@ import java.awt.AWTException;
 import java.awt.Robot;
 import java.awt.event.KeyEvent;
 import java.io.BufferedReader;
-
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -44,6 +43,7 @@ import org.apache.http.entity.StringEntity;
 import org.apache.http.impl.client.HttpClientBuilder;
 import org.apache.http.util.EntityUtils;
 import org.apache.pdfbox.pdmodel.PDDocument;
+import org.apache.pdfbox.pdmodel.encryption.InvalidPasswordException;
 import org.apache.pdfbox.text.PDFTextStripper;
 import org.apache.pdfbox.text.PDFTextStripperByArea;
 import org.json.JSONArray;
@@ -1242,14 +1242,14 @@ public class BasePage extends CommonMethods {
 		}
 	}
 
-	public boolean compareHashMaps(HashMap<String, String> map1, HashMap<String, String> m360_PCP) {
+	public boolean compareHashMaps(HashMap<String, String> map1, HashMap<String, String> map2) {
 		boolean flag = true;
-		if (map1 == null || m360_PCP == null)
+		if (map1 == null || map2 == null)
 			return false;
 
 		for (String ch1 : map1.keySet()) {
-			if (!map1.get(ch1).trim().equalsIgnoreCase(m360_PCP.get(ch1).trim())) {
-				test.log(Status.FAIL, ch1 + ": " + map1.get(ch1) + " is not equal to " + m360_PCP.get(ch1));
+			if (!map1.get(ch1).trim().equalsIgnoreCase(map2.get(ch1).trim())) {
+				test.log(Status.FAIL, ch1 + ": " + map1.get(ch1) + " is not equal to " + map2.get(ch1));
 				flag = false;
 			}
 		}
@@ -1298,6 +1298,14 @@ public class BasePage extends CommonMethods {
 		JavascriptExecutor executor = (JavascriptExecutor) driver;
 		executor.executeScript("arguments[0].click();", element);
 	}
+	
+	public void javaScriptSendKeys(WebElement element, String text) {
+		JavascriptExecutor executor = (JavascriptExecutor) driver;
+		executor.executeScript("arguments[0].click();", element);
+		element.sendKeys(text);
+	}
+	
+	
 
 	public String getControlNumber() {
 		String controlNumber = "";
@@ -1386,7 +1394,7 @@ public class BasePage extends CommonMethods {
 	 * @return image text as string
 	 * @throws TesseractException
 	 */
-	public static String readImageReturnText(String inputFilePath, String tessdataMasterPath) {
+	public static String readImageReturnText(String inputFilePath) {
 		String imageText = null;
 		try {
 			Tesseract tesseract = new Tesseract();
@@ -1429,5 +1437,6 @@ public class BasePage extends CommonMethods {
 			e.printStackTrace();
 		}
 	}
+	
 
 }
