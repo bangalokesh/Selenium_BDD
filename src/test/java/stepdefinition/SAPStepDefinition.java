@@ -38,7 +38,7 @@ public class SAPStepDefinition {
 		if(BasePage.isContinueExecution()) {
 			logger.info("Start Logging file test in java");
 			try {
-			List<HashMap<String, String>> a = createFile.readFileFromLayout(Const.SAPConfigProperties, "C:\\Users\\lokes\\git\\Selenium_BDD\\data\\SAP_File_Data\\File_Data_Interim_Table.txt", ";");
+			List<HashMap<String, String>> a = createFile.readFileFromLayout(Const.SAPConfigProperties, Const.SAPDataFile, ";");
 			logger.info("Read the file");
 				for (HashMap<String,String> row: a) {
 					String q = Const.SAPDBQuery2 + "'" + row.get("ZSRC_SYS_CD") + "';";

@@ -1,6 +1,7 @@
 package runners.sap;
 
 import org.junit.AfterClass;
+import utils.Const;
 import org.junit.runner.RunWith;
 
 import cucumber.api.CucumberOptions;
@@ -11,7 +12,7 @@ import pageclasses.BasePage;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 		tags= "@sapFileTest",
-		features="src\\test\\resources\\features",
+		features= "src\\test\\resources\\features\\",
 		glue="stepdefinition",
 		monochrome = true,
 		plugin = { "pretty", "html:reports/cucumber-reports", "json:reports/cucumber-reports/Cucumber.json", "junit:reports/cucumber-reports/Cucumber.xml", "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:reports/cucumber-reports/report.html" }
