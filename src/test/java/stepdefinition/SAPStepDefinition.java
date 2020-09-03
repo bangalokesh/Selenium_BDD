@@ -6,6 +6,7 @@ import java.util.List;
 
 import EnrollmentFiles.CreateFileFromLayout;
 import cucumber.api.java.en.Given;
+import junit.framework.Assert;
 import managers.PageManager;
 import pageclasses.BasePage;
 import utils.ApiUtils;
@@ -14,7 +15,7 @@ import utils.Const;
 public class SAPStepDefinition {
 
 	public static final org.apache.log4j.Logger logger = org.apache.log4j.Logger
-			.getLogger(M360MembershipStepDefinition.class.getName());
+			.getLogger(SAPStepDefinition.class.getName());
 
 	PageManager pm = new PageManager();
 	BasePage bp = pm.getBasePage();
@@ -32,6 +33,7 @@ public class SAPStepDefinition {
 		}
 	}
 
+	@SuppressWarnings("deprecation")
 	@Given("I read the file and validate in API")
 	public void I_read_the_file_and_validate_in_API() {
 		if (BasePage.isContinueExecution()) {
@@ -61,6 +63,7 @@ public class SAPStepDefinition {
 				}
 			} catch (Exception e) {
 				e.printStackTrace();
+				Assert.assertTrue("Exception - Connection failure", false);;
 			}
 		}
 	}
