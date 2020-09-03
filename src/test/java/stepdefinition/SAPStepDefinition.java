@@ -39,7 +39,6 @@ public class SAPStepDefinition {
 			try {
 				List<HashMap<String, String>> file = createFile.readFileFromLayout(Const.SAPConfigProperties,
 						Const.SAPDataFile, ";");
-				List<HashMap<String, String>> a2 = new ArrayList<HashMap<String, String>>();
 				for (HashMap<String, String> row : file) {
 					HashMap<String, String> apiRow = new HashMap<String, String>();
 					System.out.println(row.get("d:srcsyscd").toString());
