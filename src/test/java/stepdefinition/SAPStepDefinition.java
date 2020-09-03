@@ -1,5 +1,6 @@
 package stepdefinition;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
@@ -7,53 +8,69 @@ import EnrollmentFiles.CreateFileFromLayout;
 import cucumber.api.java.en.Given;
 import managers.PageManager;
 import pageclasses.BasePage;
+import utils.ApiUtils;
 import utils.Const;
-import utils.MySqlSAPDB;
 
 public class SAPStepDefinition {
-	
+
 	public static final org.apache.log4j.Logger logger = org.apache.log4j.Logger
 			.getLogger(M360MembershipStepDefinition.class.getName());
 
 	PageManager pm = new PageManager();
 	BasePage bp = pm.getBasePage();
-	MySqlSAPDB mySqlDB = new MySqlSAPDB();
 	CreateFileFromLayout createFile = new CreateFileFromLayout();
-	
 
 	@Given("I Login to SAP")
 	public void sapLogin() {
 		try {
 			if (BasePage.isContinueExecution()) {
 				logger.info("Start Logging in to SAP");
-				
+
 			}
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
 	}
-	
-	@Given("I read the file and validate in DB")
-	public void I_read_the_file_and_validate_in_DB() {
-		if(BasePage.isContinueExecution()) {
+
+	@Given("I read the file and validate in API")
+	public void I_read_the_file_and_validate_in_API() {
+		if (BasePage.isContinueExecution()) {
 			logger.info("Start Logging file test in java");
 			try {
-			List<HashMap<String, String>> a = createFile.readFileFromLayout(Const.SAPConfigProperties, Const.SAPDataFile, ";");
-			logger.info("Read the file");
-				for (HashMap<String,String> row: a) {
-					String q = Const.SAPDBQuery2 + "'" + row.get("ZSRC_SYS_CD") + "';";
-					HashMap<String, String> dbMap = mySqlDB.getResultSet(q);
-					logger.info("Read the data from db");
-					boolean b = bp.compareHashMaps(row, dbMap);
+				List<HashMap<String, String>> file = createFile.readFileFromLayout(Const.SAPConfigProperties,
+						Const.SAPDataFile, ";");
+				List<HashMap<String, String>> a2 = new ArrayList<HashMap<String, String>>();
+				for (HashMap<String, String> row : file) {
+					HashMap<String, String> apiRow = new HashMap<String, String>();
+					System.out.println(row.get("d:srcsyscd").toString());
+					String xml = ApiUtils.apiGetRequest(
+							"https://bslswissrevm.birlasoft.com:8004/sap/opu/odata/sap/YENTITY_MAPPING_SRV/MappingTableSet?$filter=srcsyscd%20eq%20%27"
+									+ row.get("d:srcsyscd").toString() + "%27&sap-client=100",
+							"Basic bXNhcXVpYjpXZWxjb21lMg==");
+					apiRow.put("d:srcsyscd", row.get("d:srcsyscd").toString());
+					apiRow.put("d:lesrcid", getValueOfTag("d:lesrcid", xml));
+					apiRow.put("d:leid", getValueOfTag("d:leid", xml));
+					apiRow.put("d:validfrom", getValueOfTag("d:validfrom", xml).replaceAll("-", ""));
+					apiRow.put("d:validto", getValueOfTag("d:validto", xml).replaceAll("-", ""));
+
+					boolean b = bp.compareHashMaps(row, apiRow);
 					if (b)
 						logger.info("Data in file and table matched");
 					else
 						logger.info("Data in file and table did not match");
+
 				}
-			} catch (Exception e){
+			} catch (Exception e) {
 				e.printStackTrace();
 			}
 		}
 	}
 
+	private String getValueOfTag(String tag, String xml) {
+		System.out.println(tag);
+		System.out.println(xml);
+		String startTag = "<" + tag + ">";
+		String closeTag = "</" + tag + ">";
+		return xml.substring(xml.indexOf(startTag) + startTag.length(), xml.indexOf(closeTag));
+	}
 }
