@@ -55,10 +55,13 @@ public class SAPStepDefinition {
 					apiRow.put("d:validto", getValueOfTag("d:validto", xml).replaceAll("-", ""));
 
 					boolean b = bp.compareHashMaps(row, apiRow);
-					if (b)
+					if (b) {
 						logger.info("Data in file and table matched");
-					else
+						Assert.assertEquals("Data in file and table matched", true, true);
+					} else {
 						logger.info("Data in file and table did not match");
+						Assert.assertEquals("Data in file and table did not match", true, false);
+					}
 
 				}
 			} catch (Exception e) {
